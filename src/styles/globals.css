@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: linear-gradient(120deg, #191b22 0%, #232436 100%) no-repeat fixed;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+header {
+  background: #181b20;
+  padding: 1.2rem 0 1rem 0;
+  text-align: center;
+  border-bottom: 2px solid #232842;
+}
+
+nav a {
+  margin: 0 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 4px;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+nav a:hover, nav a:focus {
+  color: #5ce1e6;
+  border-bottom: 2px solid #5ce1e6;
+}
+
+main {
+  padding: 2rem 1rem 1.5rem 1rem;
+  min-height: 85vh;
+  max-width: 1400px;
+  margin: auto;
+}
+
+footer {
+  background: #181c24;
+  color: #aaa;
+  font-size: 1rem;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 2.5rem;
+  border-top: 1px solid #232842;
+}
+
+/* Optional: Hide movie row scrollbar on Chrome */
+::-webkit-scrollbar {
+  height: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #232436;
+  border-radius: 8px;
+}

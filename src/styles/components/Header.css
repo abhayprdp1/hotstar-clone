@@ -1,0 +1,9 @@
+header {
+  background: #20232a;
+  padding: 1rem;
+}
+nav a {
+  margin: 0 12px;
+  color: #61dafb;
+  font-weight: bold;
+}
